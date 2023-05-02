@@ -38,6 +38,6 @@ describe('Clicking "Pusha till stacken"', () => {
     let peek = await driver.findElement(By.id("peek"));
     await peek.click();
     let stack = await driver.findElement(By.id("top_of_stack")).getText();
-    expect(stack).toEqual("Äpple");
+    expect(stack).toEqual("Bananer");
   });
 });

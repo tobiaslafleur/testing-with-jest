@@ -23,5 +23,5 @@ test("peek on stack after pop returns previous element", () => {
   stack.push(20);
   stack.pop();
   expect(stack.peek()).toBeDefined();
-  expect(stack.peek()).toBe(20);
+  expect(stack.peek()).toBe(1);
 });
