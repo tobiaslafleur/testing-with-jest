@@ -15,5 +15,8 @@
   "homepage": "https://github.com/tobiaslafleur/testing-with-jest#readme",
   "bugs": {
     "url": "https://github.com/tobiaslafleur/testing-with-jest/issues"
+  },
+  "dependencies": {
+    "underscore": "^1.13.6"
   }
 }
