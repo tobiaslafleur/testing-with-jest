@@ -1,0 +1,19 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "A Jest + npm lab session",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobiaslafleur/testing-with-jest.git"
+  },
+  "scripts": {
+    "test": "jest tests"
+  },
+  "author": "Tobias la Fleur",
+  "license": "MIT",
+  "homepage": "https://github.com/tobiaslafleur/testing-with-jest#readme",
+  "bugs": {
+    "url": "https://github.com/tobiaslafleur/testing-with-jest/issues"
+  }
+}
