@@ -35,6 +35,6 @@ describe('Clicking "Pusha till stacken"', () => {
 });
 
 test("Three buttons should exist on the webpage", async () => {
-  const buttons = await driver.findElements(By.css("bustton"));
+  const buttons = await driver.findElements(By.css("button"));
   expect(buttons.length).toEqual(3);
 });
